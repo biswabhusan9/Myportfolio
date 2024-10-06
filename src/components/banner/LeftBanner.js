@@ -5,16 +5,15 @@ import { SiTailwindcss,SiFigma,SiJavascript } from 'react-icons/si'
 
 function LeftBanner() {
     const [text]=useTypewriter({
-        words:["Software Engineer.","FrontEnd Developer.","Software Developer"],
-        Loop:true,
+        words:["Software Engineer.","Software Developer","FrontEnd Developer."],
+        loop:true,
         typeSpeed:35,
-        // deleteSpeed:10,
+        deleteSpeed:25,
         delaySpeed:2000
     })
   return (
     <div className='w-full lgl:w-1/2 flex flex-col gap-20'>
             <div className='flex flex-col gap-5'>
-                <h4 className='text-lg font-normal'>WELCOME TO MY WORLD</h4>
                 <h1 className='text-6xl font-bold text-white'>
                     Hi, I'm {' '}
                     <span className='text-designColor capitalize'>Biswabhusan Pradhan</span>

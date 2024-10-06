@@ -18,7 +18,7 @@ function Features() {
       duration-100
       '></div> */}
       <Card 
-      title="Business Stratagy"
+      title="Design Stratagy"
       des="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since"
       icon={<FaBars/>}
       />
