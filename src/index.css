@@ -33,3 +33,6 @@
 .active {
     color: #fff;
 }
+.scrollbar-hide::-webkit-scrollbar{
+    display:none;
+}

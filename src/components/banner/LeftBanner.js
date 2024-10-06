@@ -7,12 +7,12 @@ function LeftBanner() {
     const [text]=useTypewriter({
         words:["Software Engineer.","FrontEnd Developer.","Software Developer"],
         Loop:true,
-        typeSpeed:35
-        ,deleteSpeed:10,
+        typeSpeed:35,
+        // deleteSpeed:10,
         delaySpeed:2000
     })
   return (
-    <div className='w-1/2 flex flex-col gap-20'>
+    <div className='w-full lgl:w-1/2 flex flex-col gap-20'>
             <div className='flex flex-col gap-5'>
                 <h4 className='text-lg font-normal'>WELCOME TO MY WORLD</h4>
                 <h1 className='text-6xl font-bold text-white'>
@@ -31,7 +31,7 @@ function LeftBanner() {
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                 </p>
             </div>
-            <div className='flex justify-between'>
+            <div className='flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between'>
                 <div>
                 <h2 className='text-base uppercase font-titleFont mb-4'>
                     Find me in

@@ -18,7 +18,7 @@ const Resume = () => {
         <Title title="9+ MONTHS OF EXPERIENCE" des="My Resume"/>
         </div>
         <div>
-            <ul className='w-full grid grid-cols-4'>
+            <ul className='w-full grid grid-cols-1 xl:grid-cols-4'>
                 <li onClick={()=>
                 setEducationData(true) &
                 setSkillData(false)&
@@ -59,10 +59,7 @@ const Resume = () => {
         {skillData  && <Skills/>}
         {experienceData && <Experience/>}
         {achievementData && <Achievement/>}
-        {/* <Education/> */}
-        {/* <Skills/> */}
-        {/* <Achievement/> */}
-        {/* <Experience/> */}
+
     </section>
   )
 }
