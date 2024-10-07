@@ -1,13 +1,13 @@
 import React from "react";
 import ResumeCard from "./ResumeCard";
-import {motion} from "framer-motion"
+import {motion} from "framer-motion";
 
 const Experience = () => {
   return (
     <motion.div
-    initial={{opacity:0}}
-    animate={{opacity:1,transition:{duration:0.5}}}
-      className="py-12 font-titleFont flex gap-20"
+      initial={{opacity: 0}}
+      animate={{opacity: 1, transition: {duration: 0.5}}}
+      className="py-12 font-titleFont flex flex-col lg:flex-row lg:gap-20 gap-10" // Adjust for mobile and larger screens
     >
       <div>
         <div className="flex flex-col gap-4">
