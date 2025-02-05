@@ -6,7 +6,7 @@ function Banner() {
   
   return (
     <section id='home' 
-    className='w-full pt-10 pb-20 items-center gap-10 xl:gap-0 flex flex-col lgl:flex-row border-b-[1px] font-titleFont border-b-black'>
+    className='mt-[-30px] w-full pt-10 pb-20 items-center gap-10 xl:gap-0 flex flex-col lgl:flex-row border-b-[1px] font-titleFont border-b-black'>
         <LeftBanner/>
         
         <RightBanner/>

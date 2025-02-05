@@ -11,53 +11,53 @@ const Experience = () => {
     >
       <div>
         <div className="flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p>
+          <p className="text-sm text-designColor tracking-[4px]">2024 - 2025</p>
           <h2 className="text-4xl font-bold">Job Experience</h2>
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Sr. Software Engineer"
-            subTitle="Google Out Tech - (2017 - Present)"
+            title="Lorem Ipsum Dolor"
+            subTitle="Google Out Tech - (2024 - Present)"
             result="USA"
-            des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
+            des="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer sit amet nunc nec justo interdum dignissim."
           />
           <ResumeCard
-            title="Web Developer & Trainer"
-            subTitle="Apple Developer Team - (2012 - 2016)"
+            title="Lorem Ipsum Dolor"
+            subTitle="Apple Developer Team - (2024 - 2025)"
             result="MALAYSIA"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
+            des="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer sit amet nunc nec justo interdum dignissim."
           />
           <ResumeCard
-            title="Front-end Developer"
-            subTitle="Nike - (2020 - 2011)"
+            title="Lorem Ipsum Dolor"
+            subTitle="Nike - (2024 - 2025)"
             result="Oman"
-            des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
+            des="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer sit amet nunc nec justo interdum dignissim."
           />
         </div>
       </div>
       <div>
         <div className="flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2001 - 2020</p>
+          <p className="text-sm text-designColor tracking-[4px]">2024 - 2025</p>
           <h2 className="text-4xl font-bold">Trainer Experience</h2>
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Gym Instructor"
+            title="Lorem Ipsum Dolor"
             subTitle="Rainbow Gym Center (2015 - 2020)"
             result="DHAKA"
-            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+            des="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer sit amet nunc nec justo interdum dignissim."
           />
           <ResumeCard
-            title="Web Developer and Instructor"
+            title="Lorem Ipsum Dolor"
             subTitle="SuperKing College (2010 - 2014)"
             result="CANADA"
-            des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
+            des="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer sit amet nunc nec justo interdum dignissim."
           />
           <ResumeCard
-            title="School Teacher"
+            title="Lorem Ipsum Dolor"
             subTitle="Kingstar Secondary School (2001 - 2010)"
             result="NEVADA"
-            des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
+            des="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer sit amet nunc nec justo interdum dignissim."
           />
         </div>
       </div>

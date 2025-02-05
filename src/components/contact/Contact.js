@@ -11,14 +11,13 @@ const Contact = () => {
   const [errMsg, setErrMsg] = useState('');
   const [successMsg, setSuccessMsg] = useState('');
 
-  // Email validation 
+  
   const emailValidation = () => {
     return String(email)
       .toLowerCase()
       .match(/^\w+([-]?\w+)*@\w+([-]?\w+)*(\.\w{2,3})+$/);
   };
 
-  // Phone number validation (country code + 10 digit number)
   const phoneNumberValidation = () => {
     return String(phoneNumber).match(/^\+[1-9]{1}[0-9]{1,3}[0-9]{10}$/);
   };

@@ -5,7 +5,7 @@ import { SiTailwindcss, SiFigma, SiJavascript } from 'react-icons/si'
 
 function LeftBanner() {
     const [text] = useTypewriter({
-        words: ["Software Engineer.", "Software Developer", "FrontEnd Developer."],
+        words: ["React.js Developer.", "Software Developer", "FrontEnd Developer."],
         loop: true,
         typeSpeed: 35,
         deleteSpeed: 25,
@@ -30,9 +30,19 @@ function LeftBanner() {
                     />
                 </h2>
                 <p className='text-sm sm:text-base font-bodyFont leading-6 tracking-wide'>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                I am a Frontend Developer skilled in React 19.0.0, JavaScript, TypeScript, and modern web technologies. I specialize in building responsive web applications, integrating RESTful APIs, and working with Agile methodologies, ensuring seamless user experiences and efficient project execution. 
                 </p>
+
+                {/* Download CV Button */}
+                <a 
+                    href="https://drive.google.com/file/d/1mQ08cjYYbCHGg7BXgbFuidUkl1iWD_lF/view?usp=sharing" 
+                    download="Biswabhusan_Pradhan_CV.pdf"
+                    className="mt-4 px-6 py-3 rounded-lg bg-gradient-to-r from-pink-500 to-red-500 text-white font-semibold hover:from-red-500 hover:to-pink-500 transition duration-300 text-center w-max"
+                >
+                    Download CV
+                </a>
             </div>
+            
             <div className='flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between'>
                 <div>
                     <h2 className='text-base uppercase font-titleFont mb-4'>
@@ -47,9 +57,14 @@ function LeftBanner() {
                         >
                             <FaInstagram />
                         </a>
-                        <span className='bannerIcon'>
+                        <a
+                            href="https://twitter.com/yourprofile"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="bannerIcon"
+                        >
                             <FaTwitter />
-                        </span>
+                        </a>
                         <a
                             href="https://www.linkedin.com/in/biswabhusan-pradhan-187a15233/"
                             target="_blank"
@@ -60,6 +75,7 @@ function LeftBanner() {
                         </a>
                     </div>
                 </div>
+
                 <div>
                     <h2 className='text-base uppercase font-titleFont mb-4'>
                         Best skill on

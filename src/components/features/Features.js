@@ -18,28 +18,28 @@ function Features() {
       duration-100
       '></div> */}
       <Card 
-      title="Design Stratagy"
-      des="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since"
+      title="Web Developer"
+      des="A web developer builds and maintains websites, ensuring functionality, responsiveness, and a great user experience."
       icon={<FaBars/>}
       />
-      <Card title="App Developer"
-      des="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since"
+      <Card title="UX Design"
+      des="UX Design enhances user experience by creating intuitive, user-friendly, and visually appealing interfaces."
       icon={<AiFillAppstore/>}
       />
       <Card title="Position"
-      des="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since"
+      des="Position defines a role's responsibilities, requirements, and hierarchy within an organization or project."
       icon={<SiProgress/>}
       />
-      <Card title="Web Developer"
-      des="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since"
+      <Card title="Design Strategy"
+      des="Design Strategy aligns creative decisions with business goals to ensure effective and impactful solutions."
       icon={<MdWeb/>}
       />
-      <Card title="UX Design"
-      des="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since"
+      <Card title="Python Developer"
+      des="Python Developer builds applications, automates tasks, and analyzes data using Python for various industries."
       icon={<SiAntdesign/>}
       />
       <Card title="Hosting Websites"
-      des="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since"
+      des="Hosting Website stores and serves web content, ensuring accessibility, performance, and security for users."
       icon={<FaGlobe/>}
       />
       </div>
