@@ -43,19 +43,19 @@ const Experience = () => {
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="Lorem Ipsum Dolor"
-            subTitle="Rainbow Gym Center (2015 - 2020)"
+            subTitle="Rainbow Gym Center (2024 - 2024)"
             result="DHAKA"
             des="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer sit amet nunc nec justo interdum dignissim."
           />
           <ResumeCard
             title="Lorem Ipsum Dolor"
-            subTitle="SuperKing College (2010 - 2014)"
+            subTitle="SuperKing College (2024 - 2025)"
             result="CANADA"
             des="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer sit amet nunc nec justo interdum dignissim."
           />
           <ResumeCard
             title="Lorem Ipsum Dolor"
-            subTitle="Kingstar Secondary School (2001 - 2010)"
+            subTitle="Kingstar Secondary School (2024 - 2025)"
             result="NEVADA"
             des="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer sit amet nunc nec justo interdum dignissim."
           />

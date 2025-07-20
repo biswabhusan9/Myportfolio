@@ -11,7 +11,6 @@ function LeftBanner() {
         deleteSpeed: 25,
         delaySpeed: 2000
     })
-
     return (
         <div className='w-full lgl:w-1/2 flex flex-col gap-10'>
             <div className='flex flex-col gap-5'>
