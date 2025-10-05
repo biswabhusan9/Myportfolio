@@ -34,7 +34,7 @@ function LeftBanner() {
 
                 {/* Download CV Button */}
                 <a 
-                    href="https://drive.google.com/file/d/1mQ08cjYYbCHGg7BXgbFuidUkl1iWD_lF/view?usp=sharing" 
+                    href="https://drive.google.com/file/d/1mevcfEnJ0S-dFXU0xQj-ZUCGidrTa-7C/view?usp=sharing" 
                     download="Biswabhusan_Pradhan_CV.pdf"
                     className="mt-4 px-6 py-3 rounded-lg bg-gradient-to-r from-pink-500 to-red-500 text-white font-semibold hover:from-red-500 hover:to-pink-500 transition duration-300 text-center w-max"
                 >
